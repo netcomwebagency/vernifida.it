@@ -1,0 +1,9 @@
+# Ignore Mac DS Store File
+.DS_Store
+**/.DS_Store
+
+#Ignore Atom FTP Settings
+.remote-sync.json
+
+#Ignore src folder
+src/

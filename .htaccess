@@ -1,0 +1,50 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^(.*)/(.*)/$ $1/$2.php [L]
+
+#Redirect to homepage - another solution
+#RewriteCond %{REQUEST_URI} /$
+#RewriteCond %{HTTP_HOST} ^www.
+#RewriteRule ^$ /it/index/ [R=301,L]
+
+#RewriteCond %{REQUEST_URI} /$
+#RewriteCond %{HTTP_HOST} !^www.
+#RewriteRule ^$ https://www.%{HTTP_HOST}/it/index/ [R=301,L]
+
+
+
+#force non trailing slash to trailing slash in language
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(it|en|de|fr)(/)?$ /$1/index/ [R=301,L]
+
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} (.*)\.(xyz|top) [NC,OR]
+RewriteCond %{HTTP_REFERER} 1-99seo\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} semalt\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} 0n-line\.tv [NC,OR]
+RewriteCond %{HTTP_REFERER} 1-free-share-buttons\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} 100dollars-seo\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} 12masterov\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} adcash\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} website-analyzer\.info [NC,OR]
+RewriteCond %{HTTP_REFERER} social-buttons\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} site-auditor\.online [NC,OR]
+RewriteCond %{HTTP_REFERER} semalt.semalt\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} buttons-for-website\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} makemoneyonline\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ilovevitaly\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} priceg\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} useful-pills\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} great-money\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ilovevitaly\.ru [NC,OR]
+RewriteCond %{HTTP_REFERER} ilovevitaly\.org [NC,OR]
+RewriteCond %{HTTP_REFERER} ilovevitaly\.info [NC,OR]
+RewriteCond %{HTTP_REFERER} savetubevideo\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} kambasoft\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} darodar\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} torontoplumbinggroup\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} descargar-musica-gratis\.net [NC,OR]
+RewriteCond %{HTTP_REFERER} sharebutton\.net [NC]
+RewriteRule .* - [F]

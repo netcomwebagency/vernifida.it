@@ -1,0 +1,127 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 01/02/2017 11:24
+  	*/
+
+@font-face {
+  font-family: "global";
+  src: url("./global.eot");
+  src: url("./global.eot?#iefix") format("embedded-opentype"),
+       url("./global.woff") format("woff"),
+       url("./global.ttf") format("truetype"),
+       url("./global.svg#global") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "global";
+    src: url("./global.svg#global") format("svg");
+  }
+}
+
+[class^="global-"]:before, [class*=" global-"]:before,
+[class^="global-"]:after, [class*=" global-"]:after {
+  font-family: global;
+  font-size: 20px;
+	font-style: normal;
+}
+
+.global-star:before { content: "\f100"; }
+.global-star-1:before { content: "\f101"; }
+.global-youtube:before { content: "\f102"; }
+.global-youtube-1:before { content: "\f103"; }
+.global-youtube-3:before { content: "\f104"; }
+.global-instagram:before { content: "\f105"; }
+.global-instagram-1:before { content: "\f106"; }
+.global-free-delivery:before { content: "\f107"; }
+.global-delivery:before { content: "\f108"; }
+.global-24-hours:before { content: "\f109"; }
+.global-24-hours-1:before { content: "\f10a"; }
+.global-twitter:before { content: "\f10b"; }
+.global-twitter-1:before { content: "\f10c"; }
+.global-facebook:before { content: "\f10d"; }
+.global-facebook-1:before { content: "\f10e"; }
+.global-whatsapp:before { content: "\f10f"; }
+.global-telegram:before { content: "\f110"; }
+.global-share:before { content: "\f111"; }
+.global-linkedin:before { content: "\f112"; }
+.global-pinterest:before { content: "\f113"; }
+.global-messenger:before { content: "\f114"; }
+.global-tik-tok:before { content: "\f115"; }
+.global-wechat:before { content: "\f116"; }
+.global-add:before { content: "\f117"; }
+.global-network:before { content: "\f118"; }
+.global-download:before { content: "\f119"; }
+.global-download-1:before { content: "\f11a"; }
+.global-cloud-computing:before { content: "\f11b"; }
+.global-download-2:before { content: "\f11c"; }
+.global-search:before { content: "\f11d"; }
+.global-magnifying-glass:before { content: "\f11e"; }
+.global-loupe:before { content: "\f11f"; }
+.global-zoom-in:before { content: "\f120"; }
+.global-zoom-in-1:before { content: "\f121"; }
+.global-zoom-out:before { content: "\f122"; }
+.global-zoom-out-1:before { content: "\f123"; }
+.global-pdf-file:before { content: "\f124"; }
+.global-document:before { content: "\f125"; }
+.global-checked:before { content: "\f126"; }
+.global-check:before { content: "\f127"; }
+.global-checkmark:before { content: "\f128"; }
+.global-confirmation:before { content: "\f129"; }
+.global-history:before { content: "\f12a"; }
+.global-history-1:before { content: "\f12b"; }
+.global-maps-and-flags:before { content: "\f12c"; }
+.global-pin:before { content: "\f12d"; }
+.global-address:before { content: "\f12e"; }
+.global-placeholder:before { content: "\f12f"; }
+.global-email:before { content: "\f130"; }
+.global-envelope:before { content: "\f131"; }
+.global-email-1:before { content: "\f132"; }
+.global-email-2:before { content: "\f133"; }
+.global-at:before { content: "\f134"; }
+.global-smartphone:before { content: "\f135"; }
+.global-mail:before { content: "\f136"; }
+.global-mail-1:before { content: "\f137"; }
+.global-sms:before { content: "\f138"; }
+.global-send:before { content: "\f139"; }
+.global-letter:before { content: "\f13a"; }
+.global-telephone:before { content: "\f13b"; }
+.global-call:before { content: "\f13c"; }
+.global-telephone-1:before { content: "\f13d"; }
+.global-phone-call:before { content: "\f13e"; }
+.global-phone-call-1:before { content: "\f13f"; }
+.global-phone-call-2:before { content: "\f140"; }
+.global-smartphone-1:before { content: "\f141"; }
+.global-smartphone-2:before { content: "\f142"; }
+.global-icon-149384:before { content: "\f143"; }
+.global-smartphone-3:before { content: "\f144"; }
+.global-smartphone-4:before { content: "\f145"; }
+.global-right-arrow:before { content: "\f146"; }
+.global-right-arrow-1:before { content: "\f147"; }
+.global-right-arrow-2:before { content: "\f148"; }
+.global-left-arrow:before { content: "\f149"; }
+.global-right-arrow-3:before { content: "\f14a"; }
+.global-right-chevron:before { content: "\f14b"; }
+.global-left-arrow-1:before { content: "\f14c"; }
+.global-left-arrow-2:before { content: "\f14d"; }
+.global-left-arrow-3:before { content: "\f14e"; }
+.global-return:before { content: "\f14f"; }
+.global-left:before { content: "\f150"; }
+.global-down-arrow:before { content: "\f151"; }
+.global-down-arrow-1:before { content: "\f152"; }
+.global-down-arrow-2:before { content: "\f153"; }
+.global-down-arrow-3:before { content: "\f154"; }
+.global-down-arrow-4:before { content: "\f155"; }
+.global-up-arrow:before { content: "\f156"; }
+.global-up-arrow-1:before { content: "\f157"; }
+.global-up-arrow-2:before { content: "\f158"; }
+.global-up-arrow-3:before { content: "\f159"; }
+.global-long-arrow:before { content: "\f15a"; }
+.global-right-quotation-sign:before { content: "\f15b"; }
+.global-left-quote:before { content: "\f15c"; }
+.global-tripadvisor:before { content: "\f15d"; }
+.global-tripadvisor-1:before { content: "\f15e"; }
+.global-tripadvisor-2:before { content: "\f15f"; }
+.global-skype:before { content: "\f160"; }
